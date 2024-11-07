@@ -1,3 +1,7 @@
+run 
+
+ oc new-app --name expense-service --strategy Docker https://github.com/winahyu/expense-service.git
+
 # expense-restful-service project
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
