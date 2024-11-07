@@ -1,6 +1,8 @@
 run 
 
- oc new-app --name expense-service --strategy Docker https://github.com/winahyu/expense-service.git
+oc new-app --name expense-service --strategy Docker https://github.com/winahyu/expense-service.git
+
+mvn -Dmaven.compiler.release=11 clean package
 
 # expense-restful-service project
 
